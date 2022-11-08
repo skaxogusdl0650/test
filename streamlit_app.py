@@ -8,7 +8,7 @@ st.write("## ** *내 보험료는 얼마일까?* **")
 st.image("https://data.ac-illust.com/data/thumbnails/7e/7e28e35c383edf317e8a92084e591aa5_t.jpeg")
 
 # 첫번째 행
-r1_col1 :tada:, r1_col2 :pager:, r1_col3 :baby: = st.columns(3)
+r1_col1 st.write(:tada:), r1_col2, r1_col3 = st.columns(3)
 
 age = r1_col1.number_input("age", step=1, value=23)
 
