@@ -11,7 +11,7 @@ st.image("https://data.ac-illust.com/data/thumbnails/7e/7e28e35c383edf317e8a9208
 r1_col1 , r1_col2 , r1_col3 = st.columns(3)
 
 # r1_col1.write(":baby:")
-age = r1_col1.number_input("age",st.write(":baby"), step=1, value=23)
+age = r1_col1.number_input("age",st.write(":baby:"), step=1, value=23)
 
 bmi = r1_col2.number_input("bmi", value=34.40)
 
