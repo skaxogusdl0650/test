@@ -19,13 +19,16 @@ children = r1_col3.number_input("children", step=1, value=0)
 # 두번째 행
 r2_col1, r2_col2, r2_col3 = st.columns(3)
 
+r2_col1.write(":dash:")
 r2_col1.write("smoker")
 smoker = r2_col1.checkbox("")
 
+r2_col2.write(":couple:")
 sex_option = ("male", "female")
 sex = r2_col2.selectbox("sex", sex_option)
 is_male = sex_option[0] == sex
 
+r2_col3.write(":house:")
 region_option = ('southwest', 'southeast', 'northwest', 'northeast')
 region = r2_col3.selectbox("region", region_option)
 is_southwest = region_option[0] == region
